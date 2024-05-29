@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search With API</title>
+    <link rel="icon" type="favicon" href="/images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Image Search App</h1>
+
+    <form action="">
+        <input type="text" id="search-input" placeholder="Search for images">
+        <button id="search-button">Search</button>
+    </form>
+
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1716547286288-df00f829a799?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Contry Road">
+            <a href="https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-field-zKt5EO6sP1A" target="_blank">Country Road</a>       
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1620998258282-bc3bd5fee9e9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Road from sky">
+            <a href="https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-field-zKt5EO6sP1A" target="_blank">Road from Sky</a>       
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1541807360746-039080941306?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Contry Road">
+            <a href="https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-field-zKt5EO6sP1A" target="_blank">Country Road</a>       
+        </div>
+        <div id="imageResults"></div>
+    </div>
+
+   <div class="btn-show"> 
+    <button id="show-more-button">Show More</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
